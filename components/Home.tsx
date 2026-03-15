@@ -29,7 +29,6 @@ export function Home() {
         className="FontArmAllegroU items-start justify-between tracking-0 h-screen bg-cover bg-bottom flex text-white pr-10 py-20 text-3xl"
         style={{ backgroundImage: "url('/img1.jpg')" }}
       >
-        
         <Image
           src="/first.png"
           alt="icon1"
@@ -38,7 +37,8 @@ export function Home() {
           className=" w-35 object-contain"
         />
         <p className="FontSHK_Dzeragir text-end text-[32px] text-shadow-2xs font-bold text-black text-">
-          Ավարտական <br />Հանդես
+          Ավարտական <br />
+          Հանդես
         </p>
       </div>
 
@@ -47,7 +47,7 @@ export function Home() {
           <motion.h3
             {...anim}
             style={{ whiteSpace: "pre-line" }}
-            className=" static z-2 text-[26px] px-7 mt-3"
+            className=" static z-2 text-[26px] py-7 mt-3"
           >
             {txt1}
           </motion.h3>
@@ -63,7 +63,6 @@ export function Home() {
       </p>
 
       <div className="px-7 relative">
-        
         <Image
           src="/icon2.png"
           alt="icon1"
@@ -86,7 +85,6 @@ export function Home() {
           {txt3}
         </motion.p>
       </div>
-      
 
       <div className="FontSHK_Dzeragir text-xl italic p-7 grid gap-2">
         <motion.p
@@ -129,10 +127,22 @@ export function Home() {
         height={500}
         className="w-[60%] m-auto rounded-3xl  "
       />
-      
-      <p className="FontSHK_Dzeragir bg-[#DBDEEA] p-7 text-2xl text-center">
-        {txt4}
-      </p>
+      <div className="flex bg-[#DBDEEA] px-7 py-6">
+        <Image
+          src="/icon5.png"
+          alt="icon1"
+          width={500}
+          height={500}
+          className="w-4 object-cover "
+        />
+        <div className="FontSHK_Dzeragir pt-10 tracking-[.5%] pl-5 leading-6.25 text-2xl flex flex-col gap-9">
+          <p>12 տարի միասին</p>
+          <p>1 անփոփոխ ու սիրված դասարան</p>
+          <p>150 անգամ հնչած «դասից փախնելու» առաջարկ</p>
+          <p>21,000 ժամ դպրոցական <br /> պատերի ներսում</p>
+        </div>
+      </div>
+      <p className="FontSHK_Dzeragir tracking-[1.5%] text-2xl text-center py-25 px-7">Հարգանքներով՝ <br />2026 թ. շրջանավարտներ</p>
     </div>
   );
 }

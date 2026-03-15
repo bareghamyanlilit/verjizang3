@@ -14,7 +14,7 @@ export function Program() {
               height={500}
               className="-z-1 absolute opacity-8 "
             />
-            <div className="p-7">
+            <div className="px-7  pt-7">
               <div className="text-end ">
                 <motion.h3 {...anim} className="text-[40px]">
                   {program[0].time}
