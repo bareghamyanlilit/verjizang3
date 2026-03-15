@@ -42,12 +42,19 @@ export function Home() {
         </p>
       </div>
 
-      <div className="FontSHK_Dzeragir italic text-center py-7 bg-[##FFFF69]">
+      <div className="FontSHK_Dzeragir relative italic text-center py-7 bg-[##FFFF69]">
         <div className="py-12 mb-10">
+          <Image
+            src="/icon4.png"
+            alt="icon1"
+            width={500}
+            height={500}
+            className="w-50 absolute left-1/2  -translate-x-1/2 top-5 z-1"
+          />
           <motion.h3
             {...anim}
             style={{ whiteSpace: "pre-line" }}
-            className=" static z-2 text-[26px] py-7 mt-3"
+            className=" static z-2 text-[26px]  "
           >
             {txt1}
           </motion.h3>
